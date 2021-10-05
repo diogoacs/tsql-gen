@@ -7,7 +7,7 @@ It's very useful to use in conjunction with **Dapper** and/or ADO.NET directly w
 # Basic usage
 Either build source code and add via reference or download in NuGet. There are 2 projects, a **Annotation** library and the **Generator** library. You just need Annotation library on your models project. In your data (or repository) project you will need both.
 
-#### Creating a base  class
+#### Creating a base class
 First you need to create a basic class (or model), like this:
 ```cs
 using System;
@@ -24,7 +24,7 @@ namespace TSQLGen.Console.Models
 }
 ```
 #### Add annotations
-Now add data annotations on your properties:
+Add data annotations on your properties:
 ```cs
 using System;
 using TSQLGen.Annotations;
