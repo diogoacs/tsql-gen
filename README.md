@@ -11,6 +11,7 @@ Either build source code and add via reference or download in NuGet. There are 2
 First you need to create a basic class (or model), like this:
 ```cs
 using System;
+namespace TSQLGen.Console.Models
 {
     public class SampleModel
     {
