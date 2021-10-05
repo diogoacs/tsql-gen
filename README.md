@@ -3,6 +3,11 @@
 Is a standard .NET library to help handling and create on-the-fly SQL commands like **insert**, **update**, a basic **select** and **delete**.
 It's very useful to use in conjunction with **Dapper** and/or ADO.NET directly with a **Repository** or **UnitOfWork** approach.
 
+# Installation
+You can install this package either directly via [NuGet](https://www.nuget.org/packages/TSQLGenCore) or via .NET CLI:
+```
+dotnet add package TSQLGenCore --version 1.0.1
+```
 
 # Basic usage
 Either build source code and add via reference or download in NuGet. There are 2 projects, a **Annotation** library and the **Generator** library. You just need Annotation library on your models project. In your data (or repository) project you will need both.
